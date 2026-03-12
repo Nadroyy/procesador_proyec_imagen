@@ -1,0 +1,28 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entornos
+.env
+.env.local
+.env.production
+
+# Backend uploads (si no quieres subir las imágenes subidas por los usuarios)
+backend/uploads/
+
+# Frontend build
+frontend/build/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
